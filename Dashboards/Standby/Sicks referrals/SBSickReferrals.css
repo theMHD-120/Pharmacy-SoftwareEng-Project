@@ -1,0 +1,558 @@
+body {
+  max-width: 1900px;
+  min-width: 1900px;
+  max-height: none;
+  min-height: 1080px;
+  font-family: "B Koodak";
+  background-size: cover;
+}
+
+.icon {
+  margin-right: 14px;
+  border-radius: 50px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 1px 20px;
+}
+
+.social-account-container {
+  margin-left: 25px;
+}
+.social-account-container .social-accounts {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  gap: 15px;
+}
+.social-account-container .social-accounts .social-button {
+  background-size: 0px;
+  background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(112, 112, 112) 100%);
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 1px 13px;
+  transition: all 0.2s ease-in-out;
+}
+.social-account-container .social-accounts .social-button:hover {
+  transform: scale(1.2);
+}
+.social-account-container .social-accounts .social-button:active {
+  transform: scale(0.99);
+}
+
+#menu_items {
+  height: 67px;
+  width: 373px;
+  border-radius: 25px;
+  margin-right: 10px;
+  position: relative;
+  font-size: 27px;
+  margin: 20px 10px auto;
+  background-color: rgba(1, 93, 136, 0.05);
+  transition: 300ms;
+}
+#menu_items::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(171, 205, 255, 0.8) 70%,
+    rgb(171, 205, 255) 100%
+  );
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.5s ease;
+}
+#menu_items:hover::before {
+  border-radius: 25px;
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+#menu_items:hover {
+  color: #23006a;
+  border-radius: 25px;
+  text-shadow: 1.5px 1.5px 10px #8d53ff;
+  box-shadow: inset #23006a 0px 5px 10px -5px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    min-width: auto;
+    max-width: 100%;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+  }
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.exit {
+  font-size: 27px;
+  transition: 300ms;
+  margin-bottom: 20px;
+}
+.exit:hover {
+  color: brown;
+}
+
+/* ---------------------------------- Body ---------------------------------- */
+/* --------------- Options button ------------- */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.main-button {
+  width: 450px;
+  height: 60px;
+  background: linear-gradient(90deg, #007bff, #004289);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 3px 8px rgba(0, 123, 255, 0.5);
+}
+.main-button:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 5px 20px rgba(0, 123, 255, 0.5);
+  background: linear-gradient(90deg, #0071e9, #003267);
+}
+.main-button:active {
+  transform: scale(1.01);
+  box-shadow: 0px 3px 10px rgba(0, 123, 255, 0.5);
+  background: linear-gradient(90deg, #0071e9, #003267);
+}
+
+/* ------------- Standby entering ------------- */
+.info-form-container {
+  margin-top: 0px;
+  width: 100%;
+  max-width: 1443px;
+  font-weight: bolder;
+  background: rgba(223, 240, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 25px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.form-title {
+  font-size: 27px;
+  font-weight: bolder;
+  color: #23006a;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 10px #8d53ff;
+}
+.info-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form-group {
+  width: 48%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.form-group label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: #003366;
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+  height: 55px;
+  color: #000;
+  border: solid #cff0ff 1px;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 500ms;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: inset #23006a 0px 3px 10px -5px;
+}
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: inset #23006a 0px 6px 10px -5px;
+}
+#prescribedDrugs,
+#medicalHistory {
+  width: 100%;
+  height: 55px;
+  color: #000;
+  border: solid #cff0ff 1px;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 500ms;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: inset #23006a 0px 3px 10px -5px;
+}
+#prescribedDrugs:focus,
+#medicalHistory:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: inset #23006a 0px 6px 10px -5px;
+}
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: linear-gradient(
+    45deg,
+    rgb(18, 152, 209) 0%,
+    rgb(16, 87, 211) 100%
+  );
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 5px 10px rgba(0, 123, 255, 0.3);
+}
+.submit-btn:hover {
+  background: linear-gradient(
+    45deg,
+    rgb(18, 152, 209) 0%,
+    rgb(16, 87, 211) 100%
+  );
+  box-shadow: 0px 5px 20px rgba(0, 123, 255, 0.5);
+  transform: scale(1.01);
+}
+.submit-btn:active {
+  outline: none;
+  transform: scale(1.001);
+  box-shadow: 0px 5px 20px rgba(0, 123, 255, 0.5);
+}
+
+/* -------------- Searching bar --------------- */
+#search-container {
+  color: #000;
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  background: rgba(223, 240, 255, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+#search-field {
+  width: 15%;
+  color: #000;
+  padding: 13px;
+  border-radius: 15px;
+  border: solid #cff0ff 1px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: inset #23006a 0px 3px 10px -5px;
+}
+#search-field:focus {
+  outline: none;
+}
+#search-bar {
+  width: 36%;
+  height: 55px;
+  color: #000;
+  margin-right: 20px;
+  border: solid #cff0ff 1px;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 500ms;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: inset #23006a 0px 3px 10px -5px;
+}
+#search-bar:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: inset #23006a 0px 6px 10px -5px;
+}
+#sort-button,
+#search-button {
+  padding: 14px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+  background: linear-gradient(
+    45deg,
+    rgb(18, 152, 209) 0%,
+    rgb(16, 87, 211) 100%
+  );
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#sort-button:hover,
+#search-button:hover {
+  outline: none;
+  transform: scale(1.05);
+  box-shadow: 0px 5px 20px rgba(0, 123, 255, 0.5);
+}
+#sort-button:active,
+#search-button:active {
+  outline: none;
+  transform: scale(1.001);
+  box-shadow: 0px 5px 20px rgba(0, 123, 255, 0.5);
+}
+
+/* ------------ Searching results ------------- */
+#search-results {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+#search-results th,
+#search-results td {
+  border: 1px solid #000082;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+#search-results th {
+  color: white;
+  background: linear-gradient(0deg, #0071e9, #003267);
+}
+.view-btn {
+  padding: 8px 15px;
+  background: linear-gradient(
+    45deg,
+    rgb(18, 152, 209) 0%,
+    rgb(16, 87, 211) 100%
+  );
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.view-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 5px 20px rgba(0, 123, 255, 0.5);
+}
+
+/* -------------- Results pages ------------==- */
+#pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+#pagination button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #007bff, #004289);
+  color: white;
+  transition: 0.3s;
+  box-shadow: 0px 2px 5px rgba(0, 123, 255, 0.5);
+}
+#pagination button:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5);
+}
+#pagination button:active {
+  transform: scale(1.01);
+  box-shadow: 0px 3px 7px rgba(0, 123, 255, 0.5);
+}
+#pagination button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+#page-info {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ------------ Window information ------------ */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.info-modal {
+  width: 500px;
+  padding: 30px;
+  color: #000;
+  border-radius: 15px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(200, 230, 255, 0.95)
+  );
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+.info-divider {
+  width: 80%;
+  height: 2px;
+  background-color: #f4fcff;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.info-table {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.info-table tr {
+  border-bottom: 1px dashed rgba(0, 100, 200, 0.3);
+}
+.info-table td:first-child {
+  font-weight: bold;
+  text-align: right;
+  padding: 8px;
+  color: #007bff;
+  width: 40%;
+}
+.info-table td:last-child {
+  text-align: left;
+  padding: 8px;
+  font-weight: 600;
+  color: #444;
+  width: 60%;
+}
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+.edit-btn {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.edit-btn:hover {
+  transform: scale(1.1);
+  background-color: #e0a800;
+}
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.delete-btn:hover {
+  transform: scale(1.1);
+  background-color: #c82333;
+}
