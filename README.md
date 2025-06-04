@@ -1,2 +1,2 @@
 ﻿# Pharmacy-SoftwareEng-Frontend
->>> Software engineering final project - Winter 2025
+>>> Software engineering final project - Fall&Winter 2024/25
