@@ -3,7 +3,7 @@ function showMessage(mode) {
   let mailMessage =
     "شاهین کهزاد پور - 40030490\nایمیل: mHc9L@example.com\n\nسید مهدی مهدوی مرتضوی - 40030490\nایمیل: sm.shuniversity1400@gmail.com";
   let callMessage =
-    "شاهین کهزاد پور - 40030490\nشماره تماس: 09171081634\n\nسید مهدی مهدوی مرتضوی - 40030490\nشماره تماس: 09963147145";
+    "شاهین کهزاد پور - 40030490\nشماره تماس: 09170000034\n\nسید مهدی مهدوی مرتضوی - 40030490\nشماره تماس: 09960000045";
   let teleMessage =
     "شاهین کهزاد پور - 40030490\nآیدی تلگرام: @Shahin_Kohzadpour\n\nسید مهدی مهدوی مرتضوی - 40030490\nآیدی تلگرام: @theMHD_120";
   if (mode == 1) alert(mailMessage);
@@ -66,12 +66,12 @@ let standbies = [
     nationalCode: "0978712",
     gender: "0",
     birthDate: "1373/07/15",
-    password: "pass456",
+    password: "pass123",
     profileImage: "",
     lastLogin: "",
   },
   {
-    fullName: "زهرا کریمی",
+    fullName: "فریده عساکره",
     nationalCode: "0787124",
     gender: "1",
     birthDate: "1374/07/15",
@@ -80,11 +80,11 @@ let standbies = [
     lastLogin: "",
   },
   {
-    fullName: "زهرا کریمی",
+    fullName: "سیده زینب مرتضوی",
     nationalCode: "097824",
     gender: "1",
     birthDate: "1375/07/15",
-    password: "pass456",
+    password: "pass321",
     profileImage: "",
     lastLogin: "",
   },
@@ -93,52 +93,52 @@ let standbies = [
     nationalCode: "07124",
     gender: "0",
     birthDate: "1376/07/15",
-    password: "pass456",
+    password: "pass654",
     profileImage: "",
     lastLogin: "",
   },
   {
-    fullName: "زهرا کریمی",
+    fullName: "معصومه طاهری",
     nationalCode: "0924",
-    gender: "1",
+    gender: "1  ",
     birthDate: "1377/07/15",
-    password: "pass456",
+    password: "pass321",
     profileImage: "",
     lastLogin: "",
   },
   {
-    fullName: "زهرا کریمی",
+    fullName: "محسن کیایی",
     nationalCode: "124",
-    gender: "1",
+    gender: "0",
     birthDate: "1378/07/15",
-    password: "pass456",
+    password: "pass654",
     profileImage: "",
     lastLogin: "",
   },
   {
-    fullName: "زهرا کریمی",
+    fullName: "محمدرضا گلزار",
     nationalCode: "7124",
-    gender: "1",
+    gender: "0",
     birthDate: "1379/07/15",
-    password: "pass456",
+    password: "pass246",
     profileImage: "",
     lastLogin: "",
   },
   {
-    fullName: "زهرا کریمی",
+    fullName: "لئوناردو دیکاپریو",
     nationalCode: "09124",
-    gender: "1",
+    gender: "0",
     birthDate: "1380/07/15",
-    password: "pass456",
+    password: "pass135",
     profileImage: "",
     lastLogin: "",
   },
   {
-    fullName: "زهرا کریمی",
+    fullName: "ایلان ماسک",
     nationalCode: "09787124987",
-    gender: "1",
+    gender: "0",
     birthDate: "1381/07/15",
-    password: "pass456",
+    password: "pass642",
     profileImage: "",
     lastLogin: "",
   },
@@ -257,10 +257,7 @@ function showStandbyDetails(nationalCode) {
   document.getElementById("delete-btn").onclick = function () {
     let confirmation = confirm("آیا از حذف این داروساز کشیک مطمئن هستید؟");
     if (confirmation) {
-      // حذف از لیست اصلی
       standbies = standbies.filter((sb) => sb.nationalCode !== nationalCode);
-
-      // حذف از لیست فیلتر شده
       filteredResults = filteredResults.filter(
         (sb) => sb.nationalCode !== nationalCode
       );

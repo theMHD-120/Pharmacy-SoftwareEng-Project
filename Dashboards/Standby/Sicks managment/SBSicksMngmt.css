@@ -182,12 +182,12 @@ body {
 /* ---------------------------------- Body ---------------------------------- */
 /* --------------- Options button ------------- */
 .button-container {
-  gap: 20px;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 .main-button {
-  width: 450px;
+  width: 687.5px;
   height: 60px;
   background: linear-gradient(90deg, #007bff, #004289);
   color: white;
