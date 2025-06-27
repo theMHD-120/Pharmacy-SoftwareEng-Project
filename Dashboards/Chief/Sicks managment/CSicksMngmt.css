@@ -171,12 +171,45 @@ body {
 }
 
 .exit {
+  height: 67px;
+  width: 373px;
+  border-radius: 25px;
+  margin-right: 10px;
+  position: relative;
   font-size: 27px;
+  margin: 0px 10px 25px auto;
+  background-color: rgba(1, 93, 136, 0.05);
   transition: 300ms;
-  margin-bottom: 20px;
+}
+.exit::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 171, 171, 0.8) 70%,
+    rgb(255, 171, 171) 100%
+  );
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.5s ease;
+}
+.exit:hover::before {
+  border-radius: 25px;
+  transform: scaleX(1);
+  transform-origin: bottom right;
 }
 .exit:hover {
-  color: brown;
+  color: #6a0000;
+  border-radius: 25px;
+  text-shadow: 1.5px 1.5px 10px #ff5389;
+  box-shadow: inset #6a0000 0px 5px 10px -5px;
 }
 
 /* ---------------------------------- Body ---------------------------------- */
