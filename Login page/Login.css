@@ -98,12 +98,10 @@ body {
   border: none;
   transition: all 0.2s ease-in-out;
 }
-
 .form .login-button:hover {
   transform: scale(1.02);
   box-shadow: rgb(133, 189, 215) 0px 23px 10px -20px;
 }
-
 .form .login-button:active {
   transform: scale(0.99);
   box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
@@ -128,7 +126,6 @@ body {
   gap: 15px;
   margin: 5px 173px;
 }
-
 .social-account-container .social-accounts .social-button {
   background-size: 0px;
   background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(112, 112, 112) 100%);
@@ -143,11 +140,9 @@ body {
   box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 12px 10px -8px;
   transition: all 0.2s ease-in-out;
 }
-
 .social-account-container .social-accounts .social-button:hover {
   transform: scale(1.2);
 }
-
 .social-account-container .social-accounts .social-button:active {
   transform: scale(0.99);
 }
@@ -157,7 +152,6 @@ body {
   text-align: right;
   margin-top: 15px;
 }
-
 .agreement a {
   text-decoration: none;
   color: #0099ff;

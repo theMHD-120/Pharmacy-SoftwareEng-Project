@@ -22,7 +22,9 @@
     <div class="container">
       <img src="../Media/pharmacy-logo.png" class="logo" />
       <div class="heading">خوش آمدید!</div>
-      <form class="form" action="example.java" method="post">
+
+      <!-- <form class="form" action="example.java" method="post"> -->
+      <a class="form" id="form" href="#">
         <input
           placeholder="نام کاربری (کدملی) "
           id="email"
@@ -45,8 +47,15 @@
           onclick="alert('لطفا با مدیران سیستم تماس بگیرید')"
           >رمز عبور خود را فراموش کرده اید؟</span
         >
-        <input value="ورود" type="submit" class="login-button" />
-      </form>
+        <input
+          value="ورود"
+          type="submit"
+          class="login-button"
+          onclick="enterValidation()"
+        />
+      </a>
+      <!-- </form> -->
+
       <div class="social-account-container">
         <span class="title">ارتباط با مدیران</span>
         <div class="social-accounts">

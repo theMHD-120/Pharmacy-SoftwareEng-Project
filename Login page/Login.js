@@ -9,3 +9,20 @@ function showMessage(mode) {
   else if (mode == 2) alert(callMessage);
   else alert(teleMessage);
 }
+
+function enterValidation() {
+  emailVal = document.getElementById("email").value.toString();
+  passVal = document.getElementById("password").value.toString();
+  formTag = document.getElementById("form");
+
+  if (emailVal == "example@gmail.com") {
+    if (passVal == "Chief123")
+      formTag.href = "../Dashboards/Chief/Home/CHome.html";
+    else if (passVal == "SB123")
+      formTag.href = "../Dashboards/Standby/Home/SBHome.html";
+  }
+}
+
+alert(
+  "جهت ورود از ایمیل example@gmail.com استفاده کنید؛\nبرای ورود به پنل داروساز اصلی، از رمز Chief123 استفاده کنید؛\nهمچنین برای ورود به پنل داروساز کیشک، از رمز SB123 استفاده کنید."
+);
