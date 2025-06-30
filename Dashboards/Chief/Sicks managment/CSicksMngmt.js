@@ -118,7 +118,7 @@ let sicks = [
   },
   {
     fullName: "سوشیانت شریعتی",
-    nationalCode: "09781029712",
+    nationalCode: "3520876549",
     gender: "0",
     age: "12",
     insurance: "بانک ملت",
@@ -127,7 +127,7 @@ let sicks = [
   },
   {
     fullName: "فرزانه صادق",
-    nationalCode: "09781029712",
+    nationalCode: "1369764819",
     gender: "1",
     age: "40",
     insurance: "آزاد",
@@ -136,7 +136,7 @@ let sicks = [
   },
   {
     fullName: "عبدالناصر همتی",
-    nationalCode: "09781029712",
+    nationalCode: "0958156248",
     gender: "0",
     age: "71",
     insurance: "تامین اجتماعی",
@@ -362,7 +362,6 @@ document.getElementById("search-button").addEventListener("click", function () {
     filteredResults = [...sicks];
   } else {
     filteredResults = sicks.filter((sick) => {
-      console.log(sick);
       let fieldValue = sick[searchField]?.toString().toLowerCase();
       if (fieldValue === "0") fieldValue = "مرد";
       else if (fieldValue === "1") fieldValue = "زن";
@@ -374,6 +373,15 @@ document.getElementById("search-button").addEventListener("click", function () {
   }
 
   currentPage = 1;
+  displayPage();
+});
+
+// To sort the search results based on the diseaseStatus
+document.getElementById("sort-button").addEventListener("click", function () {
+  filteredResults.sort((a, b) => {
+    return parseInt(b.diseaseStatus) - parseInt(a.diseaseStatus);
+  });
+
   displayPage();
 });
 
