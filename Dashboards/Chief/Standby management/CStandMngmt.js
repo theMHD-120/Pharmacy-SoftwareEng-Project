@@ -18,12 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("search-bar").value = "";
 });
 
-// Show entering form and close search bar
+// Show add form and close search bar
 document.getElementById("showAddForm").addEventListener("click", function () {
   document.getElementById("info-form-container").style.display = "block";
   document.getElementById("search-container").style.display = "none";
   document.getElementById("search-bar").value = "";
 });
+
 // Inverse of above
 document.getElementById("showSearch").addEventListener("click", function () {
   document.getElementById("info-form-container").style.display = "none";
@@ -237,6 +238,7 @@ function showStandbyDetails(nationalCode) {
   document.getElementById("overlay").style.display = "flex";
   document.body.style.overflow = "hidden";
 
+  // Move to add form
   document.getElementById("edit-btn").onclick = function () {
     document.getElementById("info-form-container").style.display = "block";
     document.getElementById("search-container").style.display = "none";
@@ -254,6 +256,7 @@ function showStandbyDetails(nationalCode) {
     document.getElementById("password").value = data.password;
   };
 
+  // To delete a standby
   document.getElementById("delete-btn").onclick = function () {
     let confirmation = confirm("آیا از حذف این داروساز کشیک مطمئن هستید؟");
     if (confirmation) {
@@ -262,7 +265,7 @@ function showStandbyDetails(nationalCode) {
         (sb) => sb.nationalCode !== nationalCode
       );
 
-      // اگر صفحه خالی شد، یک صفحه به عقب برویم
+      // If the page goes blank, go back one page.
       let totalPages = Math.ceil(filteredResults.length / resultsPerPage);
       if (currentPage > totalPages) {
         currentPage = totalPages || 1;
@@ -292,7 +295,7 @@ let currentPage = 1;
 const resultsPerPage = 8;
 let filteredResults = [...standbies]; // filtered list
 
-// A function to show the considered page
+// To show the considered page
 function displayPage() {
   const tbody = document
     .getElementById("search-results")
@@ -329,7 +332,7 @@ function displayPage() {
     currentPage === totalPages || totalPages === 0;
 }
 
-// Buttons of حagination
+// Buttons of pagination
 document.getElementById("prev-page").addEventListener("click", function () {
   if (currentPage > 1) {
     currentPage--;
