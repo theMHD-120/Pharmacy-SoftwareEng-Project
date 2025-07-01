@@ -336,15 +336,12 @@ function showVisitDetails(index) {
   document.getElementById("delete-btn").onclick = function () {
     let confirmation = confirm("آیا از حذف این مراجعه مطمئن هستید؟");
     if (confirmation) {
-      // حذف از لیست اصلی
       visits = visits.filter((v) => v.nationalCode !== nationalCode);
-
-      // حذف از لیست فیلتر شده
       filteredResults = filteredResults.filter(
         (v) => v.nationalCode !== nationalCode
       );
 
-      // اگر صفحه خالی شد، یک صفحه به عقب برویم
+      // If the page goes blank, go back one page
       let totalPages = Math.ceil(filteredResults.length / resultsPerPage);
       if (currentPage > totalPages) {
         currentPage = totalPages || 1;
