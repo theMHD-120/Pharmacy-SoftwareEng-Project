@@ -46,48 +46,43 @@ document.getElementById("showSearch").addEventListener("click", function () {
 let sicks = [
   {
     fullName: "برد پیت",
-    nationalCode: "1234561377890",
+    nationalCode: "8560223371",
     gender: "0",
     age: "45",
     insurance: "تامین اجتماعی",
     diseaseStatus: "2",
-    visitDate: "1402/10/15",
-  },
-  {
-    fullName: "آنجلینا جولی",
-    nationalCode: "0977124",
-    gender: "1",
-    age: "32",
-    insurance: "سلامت",
-    diseaseStatus: "3",
-    visitDate: "1402/09/12",
   },
   {
     fullName: "مسعود پزشکیان",
-    nationalCode: "08712",
+    nationalCode: "5960889977",
     gender: "0",
     age: "28",
     insurance: "آزاد",
     diseaseStatus: "4",
-    visitDate: "1402/08/22",
+  },
+  {
+    fullName: "آنجلینا جولی",
+    nationalCode: "5552883644",
+    gender: "1",
+    age: "32",
+    insurance: "سلامت",
+    diseaseStatus: "3",
   },
   {
     fullName: "محمود احمدی نژاد",
-    nationalCode: "097823424712",
+    nationalCode: "6710696634",
     gender: "0",
     age: "31",
     insurance: "تامین اجتماعی",
     diseaseStatus: "4",
-    visitDate: "1402/08/22",
   },
   {
     fullName: "محمد جواد ظریف",
-    nationalCode: "09721313218712",
+    nationalCode: "3160678302",
     gender: "0",
     age: "52",
     insurance: "آزاد",
     diseaseStatus: "3",
-    visitDate: "1402/08/22",
   },
   {
     fullName: "نتانیابوووو",
@@ -96,25 +91,22 @@ let sicks = [
     age: "59",
     insurance: "بانک ملت",
     diseaseStatus: "2",
-    visitDate: "1402/08/22",
   },
   {
     fullName: "سارا اسماعیلی",
-    nationalCode: "097898789798712",
+    nationalCode: "3458678401",
     gender: "1",
     age: "22",
     insurance: "آزاد",
     diseaseStatus: "2",
-    visitDate: "1402/08/22",
   },
   {
     fullName: "دونالد ترامپ",
-    nationalCode: "09787877612",
+    nationalCode: "6547837569",
     gender: "0",
     age: "80",
     insurance: "سلامت",
     diseaseStatus: "3",
-    visitDate: "1402/08/22",
   },
   {
     fullName: "سوشیانت شریعتی",
@@ -123,7 +115,6 @@ let sicks = [
     age: "12",
     insurance: "بانک ملت",
     diseaseStatus: "4",
-    visitDate: "1402/08/22",
   },
   {
     fullName: "فرزانه صادق",
@@ -131,8 +122,7 @@ let sicks = [
     gender: "1",
     age: "40",
     insurance: "آزاد",
-    diseaseStatus: "4",
-    visitDate: "1402/08/22",
+    diseaseStatus: "3",
   },
   {
     fullName: "عبدالناصر همتی",
@@ -140,8 +130,79 @@ let sicks = [
     gender: "0",
     age: "71",
     insurance: "تامین اجتماعی",
+    diseaseStatus: "2",
+  },
+  {
+    fullName: "محمد مرتضوی",
+    nationalCode: "1846094780",
+    gender: "0",
+    age: "18",
+    insurance: "بانک صادرات",
     diseaseStatus: "4",
-    visitDate: "1402/08/22",
+  },
+  {
+    fullName: "آدولف هیتلر",
+    nationalCode: "6016953975",
+    gender: "0",
+    age: "39",
+    insurance: "آزاد",
+    diseaseStatus: "3",
+  },
+  {
+    fullName: "مهدیه صابری",
+    nationalCode: "2348905678",
+    gender: "1",
+    age: "24",
+    insurance: "تامین اجتماعی",
+    diseaseStatus: "4",
+  },
+  {
+    fullName: "ستیا کمالی",
+    nationalCode: "2580963147",
+    gender: "1",
+    age: "22",
+    insurance: "سلامت",
+    diseaseStatus: "2",
+  },
+  {
+    fullName: "احمد شمس",
+    nationalCode: "5890739146",
+    gender: "0",
+    age: "36",
+    insurance: "بانک صادرات",
+    diseaseStatus: "3",
+  },
+  {
+    fullName: "مجتبی احمدی",
+    nationalCode: "2837183807",
+    gender: "0",
+    age: "63",
+    insurance: "بانک کشاورزی",
+    diseaseStatus: "4",
+  },
+  {
+    fullName: "ساینا سعیدی",
+    nationalCode: "2890173964",
+    gender: "1",
+    age: "49",
+    insurance: "بانک ملت",
+    diseaseStatus: "2",
+  },
+  {
+    fullName: "کیناز جعفری",
+    nationalCode: "7913086946",
+    gender: "1",
+    age: "21",
+    insurance: "بانک کشاورزی",
+    diseaseStatus: "3",
+  },
+  {
+    fullName: "عباس بوعذار",
+    nationalCode: "3589076582",
+    gender: "0",
+    age: "78",
+    insurance: "سلامت",
+    diseaseStatus: "2",
   },
 ];
 
@@ -317,13 +378,13 @@ function displayPage() {
   pageData.forEach((sick) => {
     let row = document.createElement("tr");
     row.innerHTML = `
-              <td>${sick.fullName}</td>
-              <td>${sick.gender === "0" ? "مرد" : "زن"}</td>
-              <td>${sick.nationalCode}</td>
-              <td><button class="view-btn" onclick="showSickDetails('${
-                sick.nationalCode
-              }')">نمایش</button></td>
-          `;
+        <td>${sick.fullName}</td>
+        <td>${sick.gender === "0" ? "مرد" : "زن"}</td>
+        <td>${sick.nationalCode}</td>
+        <td><button class="view-btn" onclick="showSickDetails('${
+          sick.nationalCode
+        }')">نمایش</button></td>
+    `;
     tbody.appendChild(row);
   });
 

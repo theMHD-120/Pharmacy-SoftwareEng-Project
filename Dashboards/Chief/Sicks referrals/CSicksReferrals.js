@@ -43,31 +43,184 @@ document.getElementById("showSearch").addEventListener("click", function () {
 // List of visits ------------------------------------------
 let visits = [
   {
-    fullName: "زهرا کریمی",
-    nationalCode: "0977124",
+    fullName: "برد پیت",
+    nationalCode: "8560223371",
     patientCondition: "درد شکم",
-    prescribedDrugs: "رانیتیدین، امپرازول",
-    visitStatus: "6", // refrenced
-    visitDate: "1401/09/12",
-    registeredBy: "9876543210",
-  },
-  {
-    fullName: "محمد رضایی",
-    nationalCode: "1234567890",
-    patientCondition: "سردرد و تب",
-    prescribedDrugs: "استامینوفن، آموکسی‌سیلین",
-    visitStatus: "5", // asked
+    prescribedDrugs: "دیفن‌هیدرامین",
+    visitStatus: "0",
     visitDate: "1402/10/15",
-    registeredBy: "9876543210",
+    registeredBy: "8467138568",
   },
   {
-    fullName: "مهدی مهدوی",
-    nationalCode: "0977124",
+    fullName: "مسعود پزشکیان",
+    nationalCode: "5960889977",
     patientCondition: "درد شکم",
-    prescribedDrugs: "رانیتیدین، امپرازول",
-    visitStatus: "6", // refrenced
-    visitDate: "1402/09/12",
-    registeredBy: "9876543210",
+    prescribedDrugs: "آموکسی‌سیلین",
+    visitStatus: "1",
+    visitDate: "1403/11/29",
+    registeredBy: "3561937569",
+  },
+  {
+    fullName: "آنجلینا جولی",
+    nationalCode: "5552883644",
+    patientCondition: "تب بالا",
+    prescribedDrugs: "استامینوفن",
+    visitStatus: "0",
+    visitDate: "1404/02/05",
+    registeredBy: "3561937569",
+  },
+  {
+    fullName: "محمود احمدی نژاد",
+    nationalCode: "6710696634",
+    patientCondition: "سردرد",
+    prescribedDrugs: "ایبوپروفن",
+    visitStatus: "1",
+    visitDate: "1404/06/12",
+    registeredBy: "1248509716",
+  },
+  {
+    fullName: "محمد جواد ظریف",
+    nationalCode: "3160678302",
+    patientCondition: "آلرژی فصلی",
+    prescribedDrugs: "لوراتادین",
+    visitStatus: "1",
+    visitDate: "1403/01/10",
+    registeredBy: "6570186785",
+  },
+  {
+    fullName: "نتانیابوووو",
+    nationalCode: "0978464712",
+    patientCondition: "ریفلاکس معده",
+    prescribedDrugs: "فاموتیدین",
+    visitStatus: "0",
+    visitDate: "1403/05/17",
+    registeredBy: "1248509716",
+  },
+  {
+    fullName: "سارا اسماعیلی",
+    nationalCode: "3458678401",
+    patientCondition: "اسهال عفونی",
+    prescribedDrugs: "آزیترومایسین",
+    visitStatus: "1",
+    visitDate: "1404/07/20",
+    registeredBy: "2748590175",
+  },
+  {
+    fullName: "دونالد ترامپ",
+    nationalCode: "6547837569",
+    patientCondition: "سوزش معده",
+    prescribedDrugs: "رانیتیدین",
+    visitStatus: "0",
+    visitDate: "1402/11/11",
+    registeredBy: "1230469376",
+  },
+  {
+    fullName: "سوشیانت شریعتی",
+    nationalCode: "3520876549",
+    patientCondition: "کم‌کاری تیروئید",
+    prescribedDrugs: "لووتیروکسین",
+    visitStatus: "0",
+    visitDate: "1403/04/04",
+    registeredBy: "7852317967",
+  },
+  {
+    fullName: "فرزانه صادق",
+    nationalCode: "1369764819",
+    patientCondition: "درد قفسه سینه",
+    prescribedDrugs: "نیتروگلیسیرین",
+    visitStatus: "1",
+    visitDate: "1404/03/03",
+    registeredBy: "3561937569",
+  },
+  {
+    fullName: "عبدالناصر همتی",
+    nationalCode: "0958156248",
+    patientCondition: "پیشگیری از سکته",
+    prescribedDrugs: "کلوپیدوگرل",
+    visitStatus: "1",
+    visitDate: "1405/01/20",
+    registeredBy: "8467138568",
+  },
+  {
+    fullName: "محمد مرتضوی",
+    nationalCode: "1846094780",
+    patientCondition: "عفونت تنفسی",
+    prescribedDrugs: "آموکسی‌سیلین",
+    visitStatus: "0",
+    visitDate: "1405/02/02",
+    registeredBy: "1248509716",
+  },
+  {
+    fullName: "آدولف هیتلر",
+    nationalCode: "6016953975",
+    patientCondition: "قند خون بالا",
+    prescribedDrugs: "متفورمین",
+    visitStatus: "1",
+    visitDate: "1404/11/11",
+    registeredBy: "2748590175",
+  },
+  {
+    fullName: "مهدیه صابری",
+    nationalCode: "2348905678",
+    patientCondition: "درد مفصل",
+    prescribedDrugs: "ایبوپروفن",
+    visitStatus: "0",
+    visitDate: "1403/09/09",
+    registeredBy: "1230469376",
+  },
+  {
+    fullName: "ستیا کمالی",
+    nationalCode: "2580963147",
+    patientCondition: "سرفه‌های آلرژیک",
+    prescribedDrugs: "دیفن‌هیدرامین",
+    visitStatus: "1",
+    visitDate: "1402/08/23",
+    registeredBy: "7852317967",
+  },
+  {
+    fullName: "احمذ شمس",
+    nationalCode: "5890739146",
+    patientCondition: "عفونت ادراری",
+    prescribedDrugs: "آزیترومایسین",
+    visitStatus: "0",
+    visitDate: "1403/10/12",
+    registeredBy: "3561937569",
+  },
+  {
+    fullName: "مجتبی احمدی",
+    nationalCode: "2837183807",
+    patientCondition: "تب و بدن درد",
+    prescribedDrugs: "استامینوفن",
+    visitStatus: "1",
+    visitDate: "1405/02/25",
+    registeredBy: "6570186785",
+  },
+  {
+    fullName: "ساینا سعیدی",
+    nationalCode: "2890173964",
+    patientCondition: "ریفلاکس معده",
+    prescribedDrugs: "فاموتیدین",
+    visitStatus: "0",
+    visitDate: "1404/06/06",
+    registeredBy: "1230469376",
+  },
+  {
+    fullName: "کیناز حعفری",
+    nationalCode: "7913086946",
+    patientCondition: "ترش کردن معده",
+    prescribedDrugs: "رانیتیدین",
+    visitStatus: "0",
+    visitDate: "1403/03/15",
+    registeredBy: "7852317967",
+  },
+  {
+    fullName: "عباس بوعذار",
+    nationalCode: "3589076582",
+    patientCondition: "درد قفسه سینه",
+    prescribedDrugs: "نیتروگلیسیرین",
+    visitStatus: "1",
+    visitDate: "1405/03/08",
+    registeredBy: "9874682748",
   },
 ];
 
@@ -89,8 +242,8 @@ document.getElementById("search-button").addEventListener("click", function () {
   // Filtering by selected property
   filteredResults = visits.filter((visit) => {
     let fieldValue = visit[searchField]?.toString().toLowerCase();
-    if (fieldValue === "0") fieldValue = "مرد";
-    else if (fieldValue === "1") fieldValue = "زن";
+    if (fieldValue === "0") fieldValue = "جواب داده شده";
+    else if (fieldValue === "1") fieldValue = "ارجاع داده شده";
     return fieldValue.includes(searchText);
   });
   updateSearchResults(filteredResults);
@@ -103,7 +256,7 @@ function updateSearchResults(filteredData) {
   tbody.innerHTML = ""; // remove old results
 
   if (filteredData.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="4">هیچ نتیجه‌ای یافت نشد.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5">هیچ نتیجه‌ای یافت نشد.</td></tr>`;
     return;
   }
 
@@ -115,7 +268,7 @@ function updateSearchResults(filteredData) {
             <td>${visit.nationalCode}</td>
             <td>${visit.visitDate}</td>
             <td>${
-              visit.visitStatus === "5" ? "جواب داده شده" : "ارجاع داده شده"
+              visit.visitStatus === "0" ? "جواب داده شده" : "ارجاع داده شده"
             }</td>
             <td><button class="view-btn" onclick="showVisitDetails(${index})">نمایش</button></td>
         `;
@@ -136,7 +289,7 @@ function populateTable() {
       <td>${visit.fullName}</td>
       <td>${visit.nationalCode}</td>
       <td>${visit.visitDate}</td>
-      <td>${visit.visitStatus === "5" ? "جواب داده شده" : "ارجاع داده شده"}</td>
+      <td>${visit.visitStatus === "0" ? "جواب داده شده" : "ارجاع داده شده"}</td>
       <td><button class="view-btn" onclick="showVisitDetails(${index})">نمایش</button></td>
     `;
     tbody.appendChild(row);
@@ -159,7 +312,7 @@ function showVisitDetails(index) {
   document.getElementById("modal-prescribedDrugs").innerText =
     data.prescribedDrugs;
   document.getElementById("modal-visitStatus").innerText =
-    data.visitStatus === "5" ? "جواب داده شده" : "ارجاع داده شده";
+    data.visitStatus === "0" ? "جواب داده شده" : "ارجاع داده شده";
   document.getElementById("modal-visitDate").innerText = data.visitDate;
 
   document.getElementById("overlay").style.display = "flex";
@@ -244,7 +397,7 @@ function displayPage() {
       <td>${visit.fullName}</td>
       <td>${visit.nationalCode}</td>
       <td>${visit.visitDate}</td>
-      <td>${visit.visitStatus === "5" ? "جواب داده شده" : "ارجاع داده شده"}</td>
+      <td>${visit.visitStatus === "0" ? "جواب داده شده" : "ارجاع داده شده"}</td>
       <td><button class="view-btn" onclick="showVisitDetails(${index})">نمایش</button></td>
     `;
     tbody.appendChild(row);
@@ -286,8 +439,8 @@ document.getElementById("search-button").addEventListener("click", function () {
   } else {
     filteredResults = visits.filter((visit) => {
       let fieldValue = visit[searchField]?.toString().toLowerCase();
-      if (fieldValue === "5") fieldValue = "جواب داده شده";
-      else if (fieldValue === "6") fieldValue = "ارجاع داده شده";
+      if (fieldValue === "0") fieldValue = "جواب داده شده";
+      else if (fieldValue === "1") fieldValue = "ارجاع داده شده";
       return fieldValue.includes(searchText);
     });
   }
