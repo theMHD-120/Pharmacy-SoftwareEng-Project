@@ -265,7 +265,7 @@ function showStandbyDetails(nationalCode) {
         (sb) => sb.nationalCode !== nationalCode
       );
 
-      // If the page goes blank, go back one page.
+      // If the page goes blank, go back one page
       let totalPages = Math.ceil(filteredResults.length / resultsPerPage);
       if (currentPage > totalPages) {
         currentPage = totalPages || 1;
