@@ -3,7 +3,7 @@ function showMessage(mode) {
   let mailMessage =
     "شاهین کهزاد پور - 40030490\nایمیل: mHc9L@example.com\n\nسید مهدی مهدوی مرتضوی - 40030490\nایمیل: sm.shuniversity1400@gmail.com";
   let callMessage =
-    "شاهین کهزاد پور - 40030490\nشماره تماس: 09171081634\n\nسید مهدی مهدوی مرتضوی - 40030490\nشماره تماس: 09963147145";
+    "شاهین کهزاد پور - 40030490\nشماره تماس: 09170000004\n\nسید مهدی مهدوی مرتضوی - 40030490\nشماره تماس: 09960000005";
   let teleMessage =
     "شاهین کهزاد پور - 40030490\nآیدی تلگرام: @Shahin_Kohzadpour\n\nسید مهدی مهدوی مرتضوی - 40030490\nآیدی تلگرام: @theMHD_120";
   if (mode == 1) alert(mailMessage);
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("search-bar").value = "";
 });
 
-// Show entering form and close search bar
+// Show add form and close search bar
 document.getElementById("showAddForm").addEventListener("click", function () {
   document.getElementById("info-form-container").style.display = "block";
   document.getElementById("search-container").style.display = "none";
@@ -49,7 +49,6 @@ let visits = [
     prescribedDrugs: "دیفن‌هیدرامین",
     visitStatus: "0",
     visitDate: "1402/10/15",
-    registeredBy: "8467138568",
   },
   {
     fullName: "مسعود پزشکیان",
@@ -58,7 +57,6 @@ let visits = [
     prescribedDrugs: "آموکسی‌سیلین",
     visitStatus: "1",
     visitDate: "1403/11/29",
-    registeredBy: "3561937569",
   },
   {
     fullName: "آنجلینا جولی",
@@ -67,7 +65,6 @@ let visits = [
     prescribedDrugs: "استامینوفن",
     visitStatus: "0",
     visitDate: "1404/02/05",
-    registeredBy: "3561937569",
   },
   {
     fullName: "محمود احمدی نژاد",
@@ -76,7 +73,6 @@ let visits = [
     prescribedDrugs: "ایبوپروفن",
     visitStatus: "1",
     visitDate: "1404/06/12",
-    registeredBy: "1248509716",
   },
   {
     fullName: "محمد جواد ظریف",
@@ -85,7 +81,6 @@ let visits = [
     prescribedDrugs: "لوراتادین",
     visitStatus: "1",
     visitDate: "1403/01/10",
-    registeredBy: "6570186785",
   },
   {
     fullName: "نتانیابوووو",
@@ -94,7 +89,6 @@ let visits = [
     prescribedDrugs: "فاموتیدین",
     visitStatus: "0",
     visitDate: "1403/05/17",
-    registeredBy: "1248509716",
   },
   {
     fullName: "سارا اسماعیلی",
@@ -103,7 +97,6 @@ let visits = [
     prescribedDrugs: "آزیترومایسین",
     visitStatus: "1",
     visitDate: "1404/07/20",
-    registeredBy: "2748590175",
   },
   {
     fullName: "دونالد ترامپ",
@@ -112,7 +105,6 @@ let visits = [
     prescribedDrugs: "رانیتیدین",
     visitStatus: "0",
     visitDate: "1402/11/11",
-    registeredBy: "1230469376",
   },
   {
     fullName: "سوشیانت شریعتی",
@@ -121,7 +113,6 @@ let visits = [
     prescribedDrugs: "لووتیروکسین",
     visitStatus: "0",
     visitDate: "1403/04/04",
-    registeredBy: "7852317967",
   },
   {
     fullName: "فرزانه صادق",
@@ -130,7 +121,6 @@ let visits = [
     prescribedDrugs: "نیتروگلیسیرین",
     visitStatus: "1",
     visitDate: "1404/03/03",
-    registeredBy: "3561937569",
   },
   {
     fullName: "عبدالناصر همتی",
@@ -139,7 +129,6 @@ let visits = [
     prescribedDrugs: "کلوپیدوگرل",
     visitStatus: "1",
     visitDate: "1405/01/20",
-    registeredBy: "8467138568",
   },
   {
     fullName: "محمد مرتضوی",
@@ -148,7 +137,6 @@ let visits = [
     prescribedDrugs: "آموکسی‌سیلین",
     visitStatus: "0",
     visitDate: "1405/02/02",
-    registeredBy: "1248509716",
   },
   {
     fullName: "آدولف هیتلر",
@@ -157,7 +145,6 @@ let visits = [
     prescribedDrugs: "متفورمین",
     visitStatus: "1",
     visitDate: "1404/11/11",
-    registeredBy: "2748590175",
   },
   {
     fullName: "مهدیه صابری",
@@ -166,7 +153,6 @@ let visits = [
     prescribedDrugs: "ایبوپروفن",
     visitStatus: "0",
     visitDate: "1403/09/09",
-    registeredBy: "1230469376",
   },
   {
     fullName: "ستیا کمالی",
@@ -175,7 +161,6 @@ let visits = [
     prescribedDrugs: "دیفن‌هیدرامین",
     visitStatus: "1",
     visitDate: "1402/08/23",
-    registeredBy: "7852317967",
   },
   {
     fullName: "احمذ شمس",
@@ -184,7 +169,6 @@ let visits = [
     prescribedDrugs: "آزیترومایسین",
     visitStatus: "0",
     visitDate: "1403/10/12",
-    registeredBy: "3561937569",
   },
   {
     fullName: "مجتبی احمدی",
@@ -193,7 +177,6 @@ let visits = [
     prescribedDrugs: "استامینوفن",
     visitStatus: "1",
     visitDate: "1405/02/25",
-    registeredBy: "6570186785",
   },
   {
     fullName: "ساینا سعیدی",
@@ -202,7 +185,6 @@ let visits = [
     prescribedDrugs: "فاموتیدین",
     visitStatus: "0",
     visitDate: "1404/06/06",
-    registeredBy: "1230469376",
   },
   {
     fullName: "کیناز حعفری",
@@ -211,7 +193,6 @@ let visits = [
     prescribedDrugs: "رانیتیدین",
     visitStatus: "0",
     visitDate: "1403/03/15",
-    registeredBy: "7852317967",
   },
   {
     fullName: "عباس بوعذار",
@@ -220,7 +201,6 @@ let visits = [
     prescribedDrugs: "نیتروگلیسیرین",
     visitStatus: "1",
     visitDate: "1405/03/08",
-    registeredBy: "9874682748",
   },
 ];
 
@@ -242,8 +222,8 @@ document.getElementById("search-button").addEventListener("click", function () {
   // Filtering by selected property
   filteredResults = visits.filter((visit) => {
     let fieldValue = visit[searchField]?.toString().toLowerCase();
-    if (fieldValue === "0") fieldValue = "مرد";
-    else if (fieldValue === "1") fieldValue = "زن";
+    if (fieldValue === "0") fieldValue = "جواب داده شده";
+    else if (fieldValue === "1") fieldValue = "ارجاع داده شده";
     return fieldValue.includes(searchText);
   });
   updateSearchResults(filteredResults);
@@ -256,7 +236,7 @@ function updateSearchResults(filteredData) {
   tbody.innerHTML = ""; // remove old results
 
   if (filteredData.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="4">هیچ نتیجه‌ای یافت نشد.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5">هیچ نتیجه‌ای یافت نشد.</td></tr>`;
     return;
   }
 
@@ -268,7 +248,7 @@ function updateSearchResults(filteredData) {
             <td>${visit.nationalCode}</td>
             <td>${visit.visitDate}</td>
             <td>${
-              visit.visitStatus === "5" ? "جواب داده شده" : "ارجاع داده شده"
+              visit.visitStatus === "0" ? "جواب داده شده" : "ارجاع داده شده"
             }</td>
             <td><button class="view-btn" onclick="showVisitDetails(${index})">نمایش</button></td>
         `;
@@ -289,7 +269,7 @@ function populateTable() {
       <td>${visit.fullName}</td>
       <td>${visit.nationalCode}</td>
       <td>${visit.visitDate}</td>
-      <td>${visit.visitStatus === "5" ? "جواب داده شده" : "ارجاع داده شده"}</td>
+      <td>${visit.visitStatus === "0" ? "جواب داده شده" : "ارجاع داده شده"}</td>
       <td><button class="view-btn" onclick="showVisitDetails(${index})">نمایش</button></td>
     `;
     tbody.appendChild(row);
@@ -297,8 +277,8 @@ function populateTable() {
 }
 
 // To show window infos ---------------------------------------
-function showVisitDetails(index) {
-  const data = visits[index];
+function showVisitDetails(nationalCode) {
+  const data = visits.find((v) => v.nationalCode === nationalCode);
 
   if (!data) {
     alert("❌ اطلاعاتی برای این مراجعه یافت نشد!");
@@ -312,7 +292,7 @@ function showVisitDetails(index) {
   document.getElementById("modal-prescribedDrugs").innerText =
     data.prescribedDrugs;
   document.getElementById("modal-visitStatus").innerText =
-    data.visitStatus === "5" ? "جواب داده شده" : "ارجاع داده شده";
+    data.visitStatus === "0" ? "جواب داده شده" : "ارجاع داده شده";
   document.getElementById("modal-visitDate").innerText = data.visitDate;
 
   document.getElementById("overlay").style.display = "flex";
@@ -336,15 +316,12 @@ function showVisitDetails(index) {
   document.getElementById("delete-btn").onclick = function () {
     let confirmation = confirm("آیا از حذف این مراجعه مطمئن هستید؟");
     if (confirmation) {
-      // حذف از لیست اصلی
       visits = visits.filter((v) => v.nationalCode !== nationalCode);
-
-      // حذف از لیست فیلتر شده
       filteredResults = filteredResults.filter(
         (v) => v.nationalCode !== nationalCode
       );
 
-      // اگر صفحه خالی شد، یک صفحه به عقب برویم
+      // If the page goes blank, go back one page
       let totalPages = Math.ceil(filteredResults.length / resultsPerPage);
       if (currentPage > totalPages) {
         currentPage = totalPages || 1;
@@ -374,7 +351,7 @@ let currentPage = 1;
 const resultsPerPage = 8;
 let filteredResults = [...visits]; // filtered list
 
-// A function to show the considered page
+// To show the considered page
 function displayPage() {
   const tbody = document
     .getElementById("search-results")
@@ -391,14 +368,16 @@ function displayPage() {
     return;
   }
 
-  pageData.forEach((visit, index) => {
+  pageData.forEach((visit) => {
     let row = document.createElement("tr");
     row.innerHTML = `
       <td>${visit.fullName}</td>
       <td>${visit.nationalCode}</td>
       <td>${visit.visitDate}</td>
-      <td>${visit.visitStatus === "5" ? "جواب داده شده" : "ارجاع داده شده"}</td>
-      <td><button class="view-btn" onclick="showVisitDetails(${index})">نمایش</button></td>
+      <td>${visit.visitStatus === "0" ? "جواب داده شده" : "ارجاع داده شده"}</td>
+      <td><button class="view-btn" onclick="showVisitDetails('${
+        visit.nationalCode
+      }')">نمایش</button></td>
     `;
     tbody.appendChild(row);
   });
@@ -439,8 +418,8 @@ document.getElementById("search-button").addEventListener("click", function () {
   } else {
     filteredResults = visits.filter((visit) => {
       let fieldValue = visit[searchField]?.toString().toLowerCase();
-      if (fieldValue === "5") fieldValue = "جواب داده شده";
-      else if (fieldValue === "6") fieldValue = "ارجاع داده شده";
+      if (fieldValue === "0") fieldValue = "جواب داده شده";
+      else if (fieldValue === "1") fieldValue = "ارجاع داده شده";
       return fieldValue.includes(searchText);
     });
   }
@@ -452,7 +431,10 @@ document.getElementById("search-button").addEventListener("click", function () {
 // To sort the search results based on the diseaseStatus
 document.getElementById("sort-button").addEventListener("click", function () {
   filteredResults.sort((a, b) => {
-    return parseInt(b.visitDate) - parseInt(a.visitDate);
+    return (
+      parseInt(b.visitDate.replaceAll("/", "")) -
+      parseInt(a.visitDate.replaceAll("/", ""))
+    );
   });
 
   displayPage();
