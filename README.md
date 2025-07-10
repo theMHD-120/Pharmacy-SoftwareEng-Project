@@ -1,8 +1,6 @@
 ﻿# Pharmacy-SoftwareEng-Frontend
 >>> Software engineering final project - Fall&Winter 2024/25
 
-![Dr. Manavi pharmacy logo](Media/pharmacy-icon.png)
-
 ||| In the name of ALLAH ||| <br />
 ----------------------------- <br />
 Pharmacy Medication Advisory Management System (PMAMS); Based on the requirements and roles mentioned.<br />
@@ -34,5 +32,8 @@ Capabilities:
   - Patient referrals can be answered or referred (to chief pharmacists)
 
 **Note: Each of the above entities (and roles) has fields (attributes) that you can see in the project output.**
+
+## Icon & Logo
+![Dr. Manavi pharmacy logo](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Frontend/blob/970e1f69cb959dd2c594acb0c2191df205c37341/Media/pharmacy-icon.png)
 
 ## Quick watch 
