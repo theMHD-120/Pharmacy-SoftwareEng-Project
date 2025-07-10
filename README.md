@@ -9,3 +9,5 @@ Pharmacy Medication Advisory Management System (PMAMS); Based on the requirement
 ## Roles 
 #### Chief Pharmacist
 - The highest level of access among pharmacy staff (standby pharmacists).
+- Access level:
+- - Add Stand bies 
