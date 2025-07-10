@@ -8,5 +8,5 @@ Pharmacy Medication Advisory Management System (PMAMS); Based on the requirement
 
 ### Roles
 
-Chief Pharmacist
+  Chief Pharmacist
 - 
