@@ -7,5 +7,6 @@ Pharmacy Medication Advisory Management System (PMAMS); Based on the requirement
 **Note: This repository only contains the dynamic front-end source code.**
 
 ### Roles
+
 Chief Pharmacist
 - 
