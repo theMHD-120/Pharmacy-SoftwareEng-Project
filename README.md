@@ -1,6 +1,8 @@
 ﻿# Pharmacy-SoftwareEng-Frontend
 >>> Software engineering final project - Fall&Winter 2024/25
 
+![Dr. Manavi pharmacy logo](Media/pharmacy-icon.png)
+
 ||| In the name of ALLAH ||| <br />
 ----------------------------- <br />
 Pharmacy Medication Advisory Management System (PMAMS); Based on the requirements and roles mentioned.<br />
