@@ -393,13 +393,6 @@ body {
   height: 150px;
   cursor: pointer;
 }
-.employee {
-  background: rgb(255, 224, 179, 0.85);
-}
-.employee:hover {
-  background: #ffcc80;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
 .sick {
   background: rgb(255, 204, 204, 0.85);
 }

@@ -199,7 +199,6 @@ function showStandbyDetails(nationalCode) {
   document.getElementById("modal-gender").innerText =
     data.gender === "0" ? "مرد" : "زن";
   document.getElementById("modal-birthDate").innerText = data.birthDate;
-  document.getElementById("modal-role").innerText = "داروساز کشیک";
   document.getElementById("modal-password").innerText = data.password;
   document.getElementById("modal-last-login").innerText = data.lastLogin;
 
