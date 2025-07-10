@@ -14,7 +14,7 @@ The system has 2 roles:
 
 ### Chief Pharmacist
 
-The highest level of access among pharmacy staff (standby pharmacists).
+The higher level of accessibility among pharmacy staff (than standby pharmacists). <br />
 Access level:
 - Add/Remove/Update Standbies
 - Add/Remove/Update Sicks
@@ -22,5 +22,15 @@ Access level:
 - Add/Remove/Update Sick (patient) referrals
   - Patient referrals must be answered (there is no higher level of access to which they can be referred)
 
+Each of the above entities has fields (attributes) that you can see in the project output.
+
+### Standby Pharmacist
+
+The lower level of accessibility among pharmacy staff (than chief pharmacists). <br />
+Access level:
+- Add/Remove/Update Sicks
+- Add/Remove/Update Drugs
+- Add/Remove/Update Sick (patient) referrals
+  - Patient referrals can be answered or referred (to chief pharmacists)
 
 Each of the above entities has fields (attributes) that you can see in the project output.
