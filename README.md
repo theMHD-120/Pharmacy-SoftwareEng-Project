@@ -38,7 +38,17 @@ Capabilities:
   <dd>
     <dl>
       <dd>
-        <img src="https://github.com/theMHD-120/Pharmacy-SoftwareEng-Frontend/blob/970e1f69cb959dd2c594acb0c2191df205c37341/Media/pharmacy-icon.png" alt="icon" width="350" margin="300px"/>
+        <dl>
+          <dd>
+            <dl>
+              <dd>
+                <dl>
+                  <img src="https://github.com/theMHD-120/Pharmacy-SoftwareEng-Frontend/blob/970e1f69cb959dd2c594acb0c2191df205c37341/Media/pharmacy-icon.png" alt="icon" width="350" margin="300px"/>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+        </dl>
       </dd>
     </dl>
   </dd>
