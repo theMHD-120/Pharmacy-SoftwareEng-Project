@@ -31,5 +31,4 @@ Capabilities:
 - Add/Remove/Update Sick (patient) referrals
   - Patient referrals can be answered or referred (to chief pharmacists)
 
-<br />
 **Note: Each of the above entities (and roles) has fields (attributes) that you can see in the project output.**
