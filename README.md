@@ -22,8 +22,6 @@ Access level:
 - Add/Remove/Update Sick (patient) referrals
   - Patient referrals must be answered (there is no higher level of access to which they can be referred)
 
-Each of the above entities has fields (attributes) that you can see in the project output.
-
 ### Standby Pharmacist
 
 The lower level of accessibility among pharmacy staff (than chief pharmacists). <br />
@@ -33,4 +31,5 @@ Access level:
 - Add/Remove/Update Sick (patient) referrals
   - Patient referrals can be answered or referred (to chief pharmacists)
 
-Each of the above entities has fields (attributes) that you can see in the project output.
+<br />
+Note: each of the above entities has fields (attributes) that you can see in the project output.
