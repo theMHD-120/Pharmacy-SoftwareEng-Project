@@ -19,6 +19,7 @@ Access level:
 - Add/Remove/Update Standbies
 - Add/Remove/Update Sicks
 - Add/Remove/Update Sick (patient) referrals
+- - Patient referrals must be answered (there is no higher level of access to which they can be referred)
 - Add/Remove/Update Drugs
 
 Each of the above entities has fields (attributes) that you can see in the project output.
