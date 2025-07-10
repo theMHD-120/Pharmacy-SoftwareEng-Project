@@ -34,7 +34,7 @@ Capabilities:
 **Note: Each of the above entities (and roles) has fields (attributes) that you can see in the project output.**
 
 ## Icon & Logo
-![<img src="drawing.jpg" alt="drawing" width="200"/>](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Frontend/blob/970e1f69cb959dd2c594acb0c2191df205c37341/Media/pharmacy-icon.png)
+<img src="https://github.com/theMHD-120/Pharmacy-SoftwareEng-Frontend/blob/970e1f69cb959dd2c594acb0c2191df205c37341/Media/pharmacy-icon.png" alt="drawing" width="200"/>
 ![Dr. Manavi pharmacy logo](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Frontend/blob/54424c919374106bc2c0212a3c8459979768c746/Media/pharmacy-logo.png)
 
 ## Quick watch 
