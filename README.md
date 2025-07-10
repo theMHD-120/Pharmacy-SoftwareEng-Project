@@ -15,7 +15,7 @@ The system has 2 roles:
 ### Chief Pharmacist
 
 The higher level of accessibility among pharmacy staff (than standby pharmacists). <br />
-Access level:
+Capabilities:
 - Add/Remove/Update Standbies
 - Add/Remove/Update Sicks
 - Add/Remove/Update Drugs
@@ -25,7 +25,7 @@ Access level:
 ### Standby Pharmacist
 
 The lower level of accessibility among pharmacy staff (than chief pharmacists). <br />
-Access level:
+Capabilities:
 - Add/Remove/Update Sicks
 - Add/Remove/Update Drugs
 - Add/Remove/Update Sick (patient) referrals
