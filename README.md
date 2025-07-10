@@ -13,8 +13,9 @@ The system has 2 roles:
 - Standby Pharmacist
 
 ### Chief Pharmacist
-- The highest level of access among pharmacy staff (standby pharmacists).
-- Access level:
-  - Add/Remove/Update Standbies
-  - Add/Remove/Update Sicks
-  - Add/Remove/Update Drugs
+
+The highest level of access among pharmacy staff (standby pharmacists).
+Access level:
+- Add/Remove/Update Standbies
+- Add/Remove/Update Sicks
+- Add/Remove/Update Drugs
