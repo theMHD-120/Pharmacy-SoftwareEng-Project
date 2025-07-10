@@ -32,4 +32,4 @@ Capabilities:
   - Patient referrals can be answered or referred (to chief pharmacists)
 
 <br />
-Note: each of the above entities has fields (attributes) that you can see in the project output.
+**Note: Each of the above entities (and roles) has fields (attributes) that you can see in the project output.**
