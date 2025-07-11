@@ -19,7 +19,7 @@ Capabilities:
 - Add/Remove/Update Standbies
 - Add/Remove/Update Drugs
 - Add/Remove/Update Sicks (patients)
-- Add/Remove/Update Sick (patient) referrals
+- Add/Remove/Update Sick (patient) Referrals
   - Patient referrals must be answered (there is no higher level of access to which they can be referred)
 
 ### Standby Pharmacist
@@ -28,19 +28,21 @@ The lower level of accessibility among pharmacy staff (than chief pharmacists). 
 Capabilities:
 - Add/Remove/Update Drugs
 - Add/Remove/Update Sicks (patients)
-- Add/Remove/Update Sick (patient) referrals
-  - Patient referrals can be answered or referred (to chief pharmacists)
-
-### Considerations
-
-The lower level of accessibility among pharmacy staff (than chief pharmacists). <br />
-Capabilities:
-- Add/Remove/Update Drugs
-- Add/Remove/Update Sicks (patients)
-- Add/Remove/Update Sick (patient) referrals
+- Add/Remove/Update Sick (patient) Referrals
   - Patient referrals can be answered or referred (to chief pharmacists)
 
 **Note: Each of the above entities (and roles) has fields (attributes) that you can see in the project output.**
+
+### Considerations
+
+Two types of sorting (ascending) are considered in this system: 
+- Sorting by disease status (for Sicks)
+  - The diagnosis of the disease status is made by the attending physician.
+  - There are 3 disease states in this system:
+    - Acute type 3
+    - Acute type 2
+    - Acute type 1
+- Sorting by referral date (for Sick Referrals)
 
 ## Logo
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
