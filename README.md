@@ -35,13 +35,13 @@ Capabilities:
 
 1) Each of the above entities (and roles) has fields (attributes) that you can see in the project output.<br />
 2) Two types of sorting (ascending) are considered in this system: 
--   Sorting by disease status (for Sicks)
-  -   The diagnosis of the disease status is made by the attending physician.
-  -   There are 3 disease states in this system:
-    -   Acute type 3
-    -   Acute type 2
-    -   Acute type 1
--   Sorting by referral date (for Sick Referrals)
+  - Sorting by disease status (for Sicks)
+    - The diagnosis of the disease status is made by the attending physician.
+    - There are 3 disease states in this system:
+      - Acute type 3
+      - Acute type 2
+      - Acute type 1
+  - Sorting by referral date (for Sick Referrals)
 
 ## Logo
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
