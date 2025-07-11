@@ -18,7 +18,7 @@ The higher level of accessibility among pharmacy staff (than standby pharmacists
 Capabilities:
 - Add/Remove/Update Standbies
 - Add/Remove/Update Drugs
-- Add/Remove/Update Sicks
+- Add/Remove/Update Sicks (patients)
 - Add/Remove/Update Sick (patient) referrals
   - Patient referrals must be answered (there is no higher level of access to which they can be referred)
 
@@ -27,7 +27,16 @@ Capabilities:
 The lower level of accessibility among pharmacy staff (than chief pharmacists). <br />
 Capabilities:
 - Add/Remove/Update Drugs
-- Add/Remove/Update Sicks
+- Add/Remove/Update Sicks (patients)
+- Add/Remove/Update Sick (patient) referrals
+  - Patient referrals can be answered or referred (to chief pharmacists)
+
+### Considerations
+
+The lower level of accessibility among pharmacy staff (than chief pharmacists). <br />
+Capabilities:
+- Add/Remove/Update Drugs
+- Add/Remove/Update Sicks (patients)
 - Add/Remove/Update Sick (patient) referrals
   - Patient referrals can be answered or referred (to chief pharmacists)
 
