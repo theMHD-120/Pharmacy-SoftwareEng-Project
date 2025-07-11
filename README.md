@@ -31,10 +31,9 @@ Capabilities:
 - Add/Remove/Update Sick (patient) Referrals
   - Patient referrals can be answered or referred (to chief pharmacists)
 
-**Note: Each of the above entities (and roles) has fields (attributes) that you can see in the project output.**
-
 ### Considerations
 
+Each of the above entities (and roles) has fields (attributes) that you can see in the project output.<br />
 Two types of sorting (ascending) are considered in this system: 
 - Sorting by disease status (for Sicks)
   - The diagnosis of the disease status is made by the attending physician.
