@@ -12,8 +12,6 @@ The system has 2 roles:
 - Chief Pharmacist
 - Standby Pharmacist
 
-<br />
-
 ### Chief Pharmacist
 
 The higher level of accessibility among pharmacy staff (than standby pharmacists). <br />
@@ -24,8 +22,6 @@ Capabilities:
 - Add/Remove/Update Sick (patient) Referrals
   - Patient referrals must be answered (there is no higher level of access to which they can be referred)
 
-<br />
-
 ### Standby Pharmacist
 
 The lower level of accessibility among pharmacy staff (than chief pharmacists). <br />
@@ -34,8 +30,6 @@ Capabilities:
 - Add/Remove/Update Sicks (patients)
 - Add/Remove/Update Sick (patient) Referrals
   - Patient referrals can be answered or referred (to chief pharmacists)
-
-<br />
 
 ### Considerations
 
@@ -48,8 +42,6 @@ Two types of sorting (ascending) are considered in this system:
     - Acute type 2
     - Acute type 1
 - Sorting by referral date (for Sick Referrals)
-
-<br />
 
 ## Logo
 <br />
