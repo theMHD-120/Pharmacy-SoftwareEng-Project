@@ -44,6 +44,7 @@ Two types of sorting (ascending) are considered in this system:
 - Sorting by referral date (for Sick Referrals)
 
 ## Logo
+<br />
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
 
 ![Dr. Manavi Pharmacy logo](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Frontend/blob/970e1f69cb959dd2c594acb0c2191df205c37341/Media/pharmacy-icon.png)
