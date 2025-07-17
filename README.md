@@ -52,4 +52,6 @@ Two types of sorting (ascending) are considered in this system:
 
 
 ## Quick watch 
-![Qucik watch video](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/4a8422fa4e7e4215cadfc5f85c3b4b67d851c92f/Media/quick-watch.gif)
+<img src="https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/4a8422fa4e7e4215cadfc5f85c3b4b67d851c92f/Media/quick-watch.gif" width="900" title="Qucik watch video">
+<!-- ![Qucik watch video](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/4a8422fa4e7e4215cadfc5f85c3b4b67d851c92f/Media/quick-watch.gif)
+ -->
