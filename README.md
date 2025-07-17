@@ -52,4 +52,4 @@ Two types of sorting (ascending) are considered in this system:
 
 
 ## Quick watch 
-![Qucik watch video]()
+![Qucik watch video](https://www.veed.io/view/636e4bf3-5ff6-4ab2-bc0a-557916a795be)
