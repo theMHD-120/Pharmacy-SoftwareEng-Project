@@ -7,7 +7,7 @@ Pharmacy Medication Advisory Management System (PMAMS); Based on the requirement
 
 ## Roles 
 
-The system has 2 roles:
+The system has **2 roles**:
 - Chief Pharmacist
 - Standby Pharmacist
 
