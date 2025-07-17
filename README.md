@@ -5,6 +5,8 @@
 Pharmacy Medication Advisory Management System (PMAMS); Based on the requirements and roles mentioned.<br />
 **Attention: This repository only contains the dynamic front-end source code.**
 
+![](https://www.canva.com/design/DAGkir660vE/7SgcKod5dMzucHhQIBtcvw/watch?utm_content=DAGkir660vE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5cc2323120)
+
 ## Roles 
 
 The system has **2 roles**:
