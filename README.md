@@ -5,7 +5,9 @@
 Pharmacy Medication Advisory Management System (PMAMS); Based on the requirements and roles mentioned.<br />
 **Attention: This repository only contains the dynamic front-end source code.**
 
-![overview](https://drive.google.com/file/d/1NQF94yWUDEyneCfP4RTmwCZSdzIJdG-n/view?usp=sharing)
+<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
+![overview](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/029b7ba00eac98eac37432d038d426e0990cd2d7/Media/overview.gif)
+</dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 
 ## Roles 
 
@@ -43,16 +45,3 @@ Two types of sorting (ascending) are considered in this system:
     - Acute type 2
     - Acute type 1
 - Sorting by referral date (for Sick Referrals)
-<!--
-## Logo
-<br />
-<dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
-
-![Dr. Manavi Pharmacy logo](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Frontend/blob/970e1f69cb959dd2c594acb0c2191df205c37341/Media/pharmacy-icon.png)
-</dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
-
-
-## Quick watch 
-<img src="https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/4a8422fa4e7e4215cadfc5f85c3b4b67d851c92f/Media/quick-watch.gif" width="900" title="Qucik watch video">
-![Qucik watch video](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/4a8422fa4e7e4215cadfc5f85c3b4b67d851c92f/Media/quick-watch.gif)
- -->
