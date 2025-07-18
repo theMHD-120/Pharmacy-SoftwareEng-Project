@@ -6,6 +6,7 @@ Pharmacy Medication Advisory Management System (PMAMS); Based on the requirement
 **Attention: This repository only contains the dynamic front-end source code.**
 
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
+  
 ![overview](https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/029b7ba00eac98eac37432d038d426e0990cd2d7/Media/overview.gif)
 </dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 
