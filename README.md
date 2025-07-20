@@ -40,7 +40,7 @@ Capabilities:
 ### Considerations
 
 Each of the above entities (and roles) has fields (attributes) that you can see in the project output.<br />
-Two types of sorting (ascending) are considered in this system: 
+Also, two types of sorting (ascending) are considered in this system: 
 - Sorting by disease status (for Sicks)
   - The diagnosis of the disease status is made by the attending physician.
   - There are 3 disease states in this system:
