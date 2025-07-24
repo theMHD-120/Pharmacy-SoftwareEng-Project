@@ -8,7 +8,7 @@ Pharmacy Medication Advisory Management System (PMAMS); Based on the requirement
 <br />
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd>
 
-<img src="https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/504532b36bde402658f86c74025999eb02534b2c/Media/overview.gif" width=800>
+<img src="https://github.com/theMHD-120/Pharmacy-SoftwareEng-Project/blob/504532b36bde402658f86c74025999eb02534b2c/Media/overview.gif" width=750>
 </dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
 <br />
 
