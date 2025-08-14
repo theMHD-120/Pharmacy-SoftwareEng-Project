@@ -2,7 +2,7 @@
 >>> Software engineering final project - Fall&Winter 2024/25
 
 ||| In the name of ALLAH ||| <br />
-Pharmacy Medication Advisory Management System (PMAMS); Based on the requirements and roles mentioned.<br />
+Pharmacy Medication Advisory Management System (PMAMS); based on the requirements and roles mentioned.<br />
 **Attention: This repository only contains the dynamic front-end source code.**
 
 <br />
@@ -47,3 +47,4 @@ Also, two types of sorting (ascending) are considered in this system:
     - Acute type 2
     - Acute type 1
 - Sorting by referral date (for Sick Referrals)
+
