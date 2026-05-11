@@ -1,7 +1,7 @@
-﻿# Pharmacy-SoftwareEng-Project
+### In the name of ALLAH 
+# Pharmacy-SoftwareEng-Project
 >>> Software engineering final project - Fall&Winter 2024/25
 
-||| In the name of ALLAH ||| <br />
 Pharmacy Medication Advisory Management System (PMAMS); based on the requirements and roles mentioned.<br />
 **Attention: This repository only contains the dynamic front-end source code.**
 
