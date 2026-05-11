@@ -1,4 +1,4 @@
-### In the name of ALLAH 
+### in the name of Allah
 # Pharmacy-SoftwareEng-Project
 >>> Software engineering final project - Fall&Winter 2024/25
 
