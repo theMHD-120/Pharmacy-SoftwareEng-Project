@@ -2,8 +2,8 @@
 # Pharmacy-SoftwareEng-Project
 >>> Software Engineering - Fall&Winter 2024/25
 
-Pharmacy Medication Advisory Management System (PMAMS); based on the requirements and roles mentioned.<br />
-**Attention: This repository only contains the dynamic front-end source code.**
+Pharmacy Medication Advisory Management System (PMAMS); based on the requirements and roles mentioned<br />
+**Attention: This repository only contains the dynamic front-end source code**
 
 <br />
 <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
